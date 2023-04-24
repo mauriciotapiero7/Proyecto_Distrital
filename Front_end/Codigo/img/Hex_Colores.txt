@@ -1,0 +1,13 @@
+Color Fondo menu Negro : #040406
+Color linea fondo menu: #29338F
+Color letras menu: #F6EEEE
+Color Fondo gris : #90939C
+Color degradado antes del rojo: #B28488
+Color Linea roja: #DC3B45
+Color letras titulos : #040404
+Color letras sub-titulos : #040404
+Color parrafos : #040404
+Color Fondo quienes somos : #FBF8F8
+
+
+0C0F1A
