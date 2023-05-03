@@ -8,3 +8,11 @@ body{
     background-image: linear-gradient(to bottom, #91939C 0%, #A18B92 17%, #AE868A 33%, #B08589 50%, #C95C63 67%, #D34A53 100%);
     height: 100vh;
 }
+.main{
+    width: 45%;
+    height: 100px;
+    background-color: #D34A53;
+
+
+    background-image: linear-gradient(to right, #040406 0%, #29338F 17%);
+}
