@@ -16,7 +16,8 @@ body{
 }
 .logo_page{
     width: 80%;
-    height: 135px;   /* Logo configuración*/
+    height: 120px;   /* Logo configuración*/
+    margin: 11px 22px;
 }
 .logo_page img{              /*imagen de logo_page*/
     height: 100%;
@@ -61,6 +62,18 @@ body{
     text-decoration: none;
     line-height: 25px;
     padding: 25px 15px;
-    font-size: 20px;
+    font-size: 17px;
     color: #F6EEEE;
+}
+/*
+.vid_company{
+    width: 85%;
+    height: 50px;
+    margin-top: auto;
+}
+.vid_company video{
+    width: 0;
+    height: 0;
+    margin-top: auto;
+    left: 0;
 }
