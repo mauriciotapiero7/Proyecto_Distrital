@@ -4,6 +4,7 @@ Color letras menu: #F6EEEE
 Color Fondo gris : #90939C
 Color degradado antes del rojo: #B28488
 Color Linea roja: #DC3B45
+Linea degradado 
 Color letras titulos : #040404
 Color letras sub-titulos : #040404
 Color parrafos : #040404
