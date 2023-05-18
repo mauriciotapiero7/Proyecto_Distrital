@@ -1,0 +1,29 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: aquamarine;
+    height: 100vh;
+}
+.title{      /* ubicación del titulo */
+    width: 80%;
+    height: 58px;
+    margin: 100px 30%;
+    display: flex;
+}
+.title h1{          /*modificacion caracteristic del title */
+    text-transform: uppercase;
+    font-weight: 800;
+    color: black;
+    letter-spacing: normal;
+}
+#section_respuestas .respuestas{
+    width: 80%;
+    margin: 20px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    transition: all 1s;
+}
