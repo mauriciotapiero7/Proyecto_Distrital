@@ -14,16 +14,21 @@ body{
     margin: 100px 30%;
     display: flex;
 }
-.title h1{          /*modificacion caracteristic del title */
+.title a {          /*modificacion caracteristic del title */
     text-transform: uppercase;
     font-weight: 800;
     color: black;
     letter-spacing: normal;
 }
 #section_respuestas .respuestas{
-    width: 80%;
-    margin: 20px;
+    width: 30%;
+    margin: 50px;
+    height: 100px;
     background-color: aliceblue;
-    border-radius: 50px;
+    border-radius: 10px;
+    transition: all 1s;
+}
+#section_respuestas .respuestas .question{
+    bad-shadow: 0px 7px 25px -3px rgba(24, 139, 136);
     transition: all 1s;
 }
