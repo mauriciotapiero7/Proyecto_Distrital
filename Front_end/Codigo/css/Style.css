@@ -65,14 +65,13 @@ body{
     font-size: 17px;
     color: #F6EEEE;
 }
+/*Estilos del video*/
 .vid_company{
-    width: 85%;
+    width: 63%;
     height: 50px;
-    margin-top: auto;
-}
-.vid_company video{
-    width: 0;
-    height: 0;
-    margin-top: auto;
-    left: 0;
-}
+    margin-left: 20%;
+    }
+    .vid_company video{
+    width: 100%;
+    height: auto;
+    }
