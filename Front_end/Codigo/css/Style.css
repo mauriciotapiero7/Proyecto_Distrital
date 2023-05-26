@@ -75,3 +75,184 @@ body{
     width: 100%;
     height: auto;
     }
+
+/*Titulo y contenido de page : Quienes somos*/
+.conte h1{
+    margin: 30px 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #0e0e11;
+}
+.conte p{
+    margin: 30px 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #0e0e11;
+}
+/* Página dividida en parrafos con imagenes*/
+.textos_q{
+    display: flex;
+}
+/*Titulo y contenido de page : Quienes somos-vision*/
+
+.conte1 h2{
+    margin-left: 300px;
+    font-size: 30px;
+    color: #0e0e11;
+}
+.conte1 p{
+    padding-left: 25px;
+    margin: 25px;
+    font-size: 16px;
+    color: #0e0e11;
+    text-align: center;
+}
+/*Titulo y contenido de page : Quienes somos-Mision*/
+
+.conte2 h3{
+    margin-left: 250px;
+    font-size: 30px;
+    color: #0e0e11;
+}
+.conte2 p{
+    padding-right: 25px;
+    margin: 25px;
+    font-size: 16px;
+    color: #0e0e11;
+    text-align: center;
+}
+.conte2 img{
+    width: 70%;
+    height: 130px;
+    margin-left: 100px;
+}
+/* page especialidades*/
+.textos_e{
+    display: flex;
+}
+
+/*imagenes de especialidades*/
+.esp1 img{
+    margin: 23px;
+    width: 40%;
+    height: 110px;
+    margin-left: 100px;
+}
+
+/*Alineación texto de especialidades*/
+.esp2 h1{
+    margin: 95px;
+    margin-left: 330px;
+    font-size: 35px;
+    color: #0e0e11;
+}
+.esp2 p{
+    margin: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+    color: #0e0e11;
+    text-align: center;
+}
+/*textos de servicios*/
+.textos_s{
+    display: flex;
+}
+/*Alineación texto de servicios*/
+.ser1 h1{
+    margin: 95px;
+    margin-left: 330px;
+    font-size: 35px;
+    color: #0e0e11;
+}
+.ser1 p{
+    margin: 15px;
+    padding-right: 25px;
+    font-size: 16px;
+    color: #0e0e11;
+    text-align: center;
+}
+/*imagenes de servicios*/
+.ser2 img{
+    margin: 30px;
+    width: 60%;
+    height: 150px;
+    margin-left: 100px;
+}
+/* page Experiencias*/
+.textos_ex{
+    display: flex;
+}
+
+/*imagenes de Experiencias*/
+.exp1 img{
+    margin: 30px;
+    width: 50%;
+    height: 50px;
+    margin-left: 100px;
+}
+
+/*Alineación texto de Experiencias*/
+.exp2 h1{
+    margin: 30px;
+    margin-left: 310px;
+    font-size: 37px;
+    color: #0e0e11;
+}
+.exp2 p{
+    margin: 20px;
+    padding-right: 25px;
+    font-size: 16px;
+    color: #0e0e11;
+    text-align: center;
+}
+/*Alineación texto de Experiencias-Clientes*/
+.clientes h1{
+    margin: 15px;
+    margin-left: 600px;
+    font-size: 27px;
+    color: #0e0e11;
+}
+/*Aliciación imagenes de clientes*/
+.clientes_ima{
+    display: flex;
+}
+.clientes_ima img{
+    margin: 20px;
+    width: 20%;
+    height: 110px;
+    margin-left: 110px;
+}
+/*Page de contactos*/
+
+/*Titulo de contactos*/
+.titulo_contact h1{
+    margin: 15px;
+    font-size: 27px;
+    margin-left: 600px
+}
+
+/* Sección de formulario y maps*/
+.contact{
+    display: flex;
+}
+/* sección de formulario de contacto*/
+.contact1 h2{
+    margin: 30px;
+    margin-left: 240px;
+    font-size: 37px;
+    color: #0e0e11;
+}
+
+/*sección de googmaps en dirección*/
+.contact2 h3{
+    margin: 30px;
+    margin-left: 310px;
+    font-size: 37px;
+    color: #0e0e11;
+}
+/*Sección de google maps en dirección*/
+iframe {
+    margin-left: 200px;
+    width: 80%;
+    height: 300px;
+}
