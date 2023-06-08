@@ -10,13 +10,13 @@ body{
 }
 .main{
     width: 100%;
-    height: 22vh;
+    height: 20vh;
     background-image: linear-gradient(to right, #0e0e11 0%, #283073 43%, #2b337f 50%, #2633aa 67%, #2534b8 100%);
     display: inline-flex;
 }
 .logo_page{
     width: 80%;
-    height: 120px;   /* Logo configuración*/
+    height: 100px;   /* Logo configuración*/
     margin: 11px 22px;
 }
 .logo_page img{              /*imagen de logo_page*/
