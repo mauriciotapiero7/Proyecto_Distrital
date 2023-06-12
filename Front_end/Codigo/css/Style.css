@@ -265,6 +265,9 @@ iframe {
 }
 
 /*Sección redirect de solicitud enviado*/
-.correos{
-    
+.correos h1{
+    margin: 220px;
+    text-align: center;
+    font-size: 35px;
+    color: #0e0e11;
 }
