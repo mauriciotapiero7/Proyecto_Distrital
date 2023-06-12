@@ -256,3 +256,10 @@ iframe {
     width: 80%;
     height: 300px;
 }
+/*Sección formulario */
+.form-row{
+    margin: 13px;
+    margin-left: 310px;
+    font-size: 20px;
+}
+

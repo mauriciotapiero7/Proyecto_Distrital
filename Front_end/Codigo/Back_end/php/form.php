@@ -13,8 +13,8 @@ $mensaje .= "El mensaje es: " . $mensaje . "\r\n";
 $para = 'J.carlos_publicidad2@hotmail.com';
 $asu = "Este mensaje es enviado desde la web de publimetal";
 
-mail($para, $asu, utf8_decode($mensaje), header);
+$mail($para, $asu, utf8_decode($mensaje), $header);
 
-header('location:/index.php');
-exit;
+$header('location: correo.html');
+
 ?>
