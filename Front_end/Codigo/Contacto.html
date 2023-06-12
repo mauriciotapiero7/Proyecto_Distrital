@@ -62,5 +62,31 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3344.09039281148!2d-74.19360430000002!3d4.626877889698034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1685136806662!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
+    <!--  Codigo para formulario PHP  -->
+    <form action="Back_end/php/form.php" method="post" class="speaker-form">
+        <div class="form-row">
+            <label for="name">NOMBRE</label>
+            <input id="name" name="name" type="text" placeholder="Nombre completo"/> 
+        </div>
+        
+        <div class="form-row">
+            <label for="email">EMAIL</label>
+            <input id="email" name="email" type="email" placeholder="Mauricio@example.com"/>
+        </div>
+
+        <div class="form-row">
+            <label for="asunto">ASUNTO</label>
+            <input id="asunto" name="asunto" type="text input" placeholder ="Que quieres saber"/>
+        </div>
+
+        <div class="form-row">
+            <label for="mensaje">MENSAJE</label>
+            <textarea id="mensaje" name="mensaje" type="text input" placeholder ="Mensaje"></textarea>
+            <div class="texto-mensaje">Describe en 500 letras</div>
+        </div>
+
+        <div class="form-row">
+            <button>ENVIAR</button>
+        </div> 
 </body>
 </html>
