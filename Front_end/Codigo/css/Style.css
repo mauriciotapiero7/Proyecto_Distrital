@@ -122,8 +122,8 @@ body{
     text-align: center;
 }
 .conte2 img{
-    width: 70%;
-    height: 130px;
+    width: 55%;
+    height: 110px;
     margin-left: 100px;
 }
 /* page especialidades*/
@@ -137,6 +137,7 @@ body{
     width: 40%;
     height: 110px;
     margin-left: 100px;
+    border-radius: 20%;
 }
 
 /*Alineación texto de especialidades*/
@@ -177,6 +178,7 @@ body{
     width: 60%;
     height: 150px;
     margin-left: 100px;
+    border-radius: 20%;
 }
 /* page Experiencias*/
 .textos_ex{
@@ -189,6 +191,7 @@ body{
     width: 50%;
     height: 50px;
     margin-left: 100px;
+    border-radius: 20%;
 }
 
 /*Alineación texto de Experiencias*/
@@ -257,11 +260,22 @@ iframe {
     height: 300px;
 }
 /*Sección formulario */
+.formulario{
+    background-color: #9c313d;
+    margin-top: 40px;
+    margin-left: 110px;
+    border-radius: 20%;
+}
 .form-row{
-    margin: 13px;
-    margin-left: 310px;
+    margin: 10px;
+    margin-left: 150px;
     font-size: 20px;
-    border-radius: 15px;
+}
+.texto-mensaje{
+    margin: 10px;
+    margin-left: 150px;
+    font-size: 15px;
+    color: #0e0e11;
 }
 
 /*Sección redirect de solicitud enviado*/
