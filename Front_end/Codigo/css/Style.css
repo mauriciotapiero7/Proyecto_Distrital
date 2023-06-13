@@ -271,6 +271,12 @@ iframe {
     margin-left: 150px;
     font-size: 20px;
 }
+.form-men{
+    margin: 10px;
+    margin-left: 150px;
+    font-size: 20px;
+
+}
 .texto-mensaje{
     margin: 10px;
     margin-left: 150px;
@@ -304,7 +310,7 @@ iframe {
 .float:hover {
 	text-decoration: none;
 	color: #25d366;
-  background-color:#fff;
+    background-color:#fff;
 }
 
 .my-float{
