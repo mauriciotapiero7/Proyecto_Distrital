@@ -8,10 +8,6 @@ $bd = "publimetal_db";
 
 $coneccion = new mysqli($servidor, $usuario, $clave, $bd);
 
-/*if($coneccion->connect_errno)
-{
-    echo"Error en la recepción de la DB";
-}*/
 if(isset($_POST['enviar']))
 {
         $nombre = $_POST['name'];
