@@ -1,5 +1,13 @@
 <?php
 
+//Conexión formulario con DB table//
+$servidor = "localhost";
+$usuario = "root";
+$clave = "";
+$bd = "publimetal_db";
+
+$coneccion = mysqli_connect ($servidor, $usuario, $clave, $bd )
+
 if (isset($_POST['enviar']))
 {
     if(!empty($_POST['name'])&&!empty($_POST['email'])&&!empty($_POST['[asunto'])&&!empty($_POST['mensaje'])){
@@ -7,6 +15,9 @@ if (isset($_POST['enviar']))
         $mail = $_POST ['email'];
         $asunto = $_POST ['asunto'];
         $mensaje = $_POST ['mensaje'];
+
+        $insertarDatos = 'INSERT INTO contacto VALUES('nombre','mail','asunto','mensaje','')';
+        $ejecutarInsertar = mysqli_query($coneccion, $insertarDatos);
 
         $mensaje = "Este mensaje fue enviado por" . $nombre .   ". \r\n";    
         $mensaje .= "Su Email es: " . $mail . "\r\n";
